@@ -1,0 +1,7 @@
+#springboot 2.6.x 整合Swagger2 需要有如下的配置才能運行Swagger，較舊的版本就不需要配置ex: 2.5.7
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  profiles:
+    active: dev
